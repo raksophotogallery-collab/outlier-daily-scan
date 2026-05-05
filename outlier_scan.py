@@ -6,9 +6,9 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 # ── CONFIG ──────────────────────────────────────────────
-PERPLEXITY_API_KEY = os.environ["PERPLEXITY_API_KEY"]
-GMAIL_SENDER      = os.environ["GMAIL_SENDER"]
-GMAIL_PASSWORD    = os.environ["GMAIL_APP_PASSWORD"]
+PERPLEXITY_API_KEY = os.environ["PERPLEXITY_API_KEY"].strip()
+GMAIL_SENDER      = os.environ["GMAIL_SENDER"].strip()
+GMAIL_PASSWORD    = os.environ["GMAIL_APP_PASSWORD"].strip()
 RECIPIENT         = "raksophotogallery@gmail.com"
 TODAY             = datetime.now().strftime("%A %d %B %Y")
 
