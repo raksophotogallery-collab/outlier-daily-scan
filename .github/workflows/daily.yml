@@ -1,0 +1,30 @@
+name: Outlier Daily Scan
+
+on:
+  schedule:
+    # Kör mån-fre kl 20:00 UTC = 22:00 CEST (sommartid)
+    - cron: '0 20 * * 1-5'
+  workflow_dispatch:  # Tillåter manuell körning
+
+jobs:
+  send-outlier-scan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run outlier scan and send email
+        env:
+          PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+          GMAIL_SENDER: ${{ secrets.GMAIL_SENDER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python outlier_scan.py
