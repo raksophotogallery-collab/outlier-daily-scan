@@ -28,6 +28,7 @@ Din uppgift: Identifiera de 3 absolut starkaste amerikanska aktierna som just nu
 5. Har antingen: stark EPS/Sales-acceleration (fundamental outlier) ELLER en kraftfull story/catalyst (expectation outlier)
 6. ENDAST aktier med aktuellt pris mellan $5-$100 (detta är KRITISKT – ingen aktie under $5 eller över $100)
 7. Verifiera och inkludera AKTUELLT och KORREKT pris för varje aktie
+8. Minst $1 miljon i genomsnittlig daglig volym (dollar volume) - aktien måste handlas tillräckligt för likviditet
 
 For varje aktie - skriv ett detaljerat avsnitt med:
 - TICKER och bolagsnamn som rubrik
