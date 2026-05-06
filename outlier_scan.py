@@ -26,6 +26,8 @@ Din uppgift: Identifiera de 3 absolut starkaste amerikanska aktierna som just nu
 3. Har Relativ Styrka (RS) i topp 10% mot marknaden (RS 90+)
 4. Befinner sig i en stark sektor dar flera aktier ror sig upp tillsammans
 5. Har antingen: stark EPS/Sales-acceleration (fundamental outlier) ELLER en kraftfull story/catalyst (expectation outlier)
+6. ENDAST aktier med aktuellt pris mellan $5-$100 (detta är KRITISKT – ingen aktie under $5 eller över $100)
+7. Verifiera och inkludera AKTUELLT och KORREKT pris för varje aktie
 
 For varje aktie - skriv ett detaljerat avsnitt med:
 - TICKER och bolagsnamn som rubrik
@@ -35,7 +37,7 @@ For varje aktie - skriv ett detaljerat avsnitt med:
 - Vad tradaren ska vanta pa som entry-signal (VCP, flat base, breakout over pivot)
 - Typ: FUNDAMENTAL OUTLIER eller EXPECTATION/STORY OUTLIER
 
-Avsluta med en sammanfattningstabell: Ticker | Pris | Sektor | RS 3M | Stage | Typ | Entry-setup
+Avsluta med en sammanfattningstabell: Ticker | AKTUELLT PRIS | Sektor | RS 3M | Stage | Typ | Entry-setup
 
 Skriv pa svenska. Var konkret och specifik."""
 
