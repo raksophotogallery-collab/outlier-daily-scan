@@ -20,6 +20,9 @@ PROMPT = f"""Du ar en professionell aktieanalytiker specialiserad pa Stan Weinst
 
 Dagens datum: {TODAY}
 
+VIKTIGT: Varje dag ska du hitta NYA aktier! Undvik att rekommendera samma aktier flera dagar i rad. Sök efter de mest aktuella case som bygger momentum JUST NU baserat på dagens datum. Använd realtidsdata och senaste marknadsinformation för att hitta aktier som är i rörelse idag/denna vecka.
+
+
 Din uppgift: Identifiera de 3 absolut starkaste amerikanska aktierna som just nu:
 1. Gar fran Stage 1 till Stage 2 (Weinstein) - dvs bryter ut over 30-veckors glidande medelvarde pa stark volym
 2. ELLER bygger sin forsta eller andra bas i Stage 2
